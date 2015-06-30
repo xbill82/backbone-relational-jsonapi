@@ -25,5 +25,9 @@
     "app/lib/bower_components/",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "backbone-relational": ">=0.9.0",
+    "underscore": ">=1.5.0"
+  },
 }
