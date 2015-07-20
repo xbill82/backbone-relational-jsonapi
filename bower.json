@@ -1,7 +1,7 @@
 {
   "name": "backbone-relational-jsonapi",
   "main": "lib/backbone-relational-jsonapi.js",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "homepage": "https://github.com/xbill82/backbone-relational-jsonapi",
   "authors": [
     "Luca Marchesini <xbill82@gmail.com>"
