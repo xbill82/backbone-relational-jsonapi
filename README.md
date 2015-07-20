@@ -67,6 +67,11 @@ and then register this class in the model factory, like
 
 This way, compound objecs containing `tags` objects will be parsed and the included instances of `Tag` will be available to other objects for relationships.
 
+## Meta objects
+
+Meta objects are supported and their treatment is delegated to the model or collection that is parsing the incoming data. When a `meta` object is found within the response, the function `handleMeta` is called on `this`. If the function is not defined, then the `meta` object is ignored.
+Be careful: this function is called before the `parse` function has actually returned, so you won't be able to access the parsed data from the `handeMeta` scope.
+
 ## Examples
 
 Here's an example of an `articles` object that can be parsed by the library
@@ -121,4 +126,3 @@ Which, Backbone-side would be expressed like
 Currently, the support of the JSONapi specification is partial. Work still needs to be done.
 
 * Links
-* Meta
