@@ -13,7 +13,7 @@ Backbone and Backbone.Relational and Underscore need to be loaded before this li
     require.config({
         paths : {
             'backbone': 'path/to/backbone',
-            'backbone-relational': 'path/to/bacbone-relational',
+            'backbone-relational': 'path/to/backbone-relational',
             'backbone-relational-jsonapi': 'path/to/backbone-relational-jsonapi'
         }
         shim: {
@@ -35,7 +35,7 @@ To use it, you can require it at your application's boostrap like
         "backbone",
         "backbone-relational",
         "backbone-jsonapi"
-    ], function(Backbone) { 
+    ], function(Backbone) {
         // Your application here
     });
 
